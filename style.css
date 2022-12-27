@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+    width: 200px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+}
+
+li a {
+    text-decoration: none;
+     color: white;
+}
+
+li {
+   color: white;
+   background-color: black;
+}
+
+
+#menu li:hover {
+    background-color: red;
+}
+
+#menu ul ul {
+    position: absolute;
+    top: 80px;
+    left: 208px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible;
+}
+
+#menu ul {
+    padding: 0px;
+}
+
